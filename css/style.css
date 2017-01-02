@@ -1,11 +1,4 @@
-/*
- * Author: Carlos Alvarez
- * URL: http://alvarez.is
- *
- * Project Name: Munter - Free Bootstrap 3 Theme
- * Version: 1.0
- * URL: http://blacktie.co
- */
+
 .name {
 	font-family: serif;
 	font-weight: 900;
@@ -395,24 +388,24 @@ body {
 
 #slide-3 {
 	background-color: #a9a9a9;
-	margin: 0 auto;
+	/*margin: 0 auto;
 	overflow: hidden;
 	padding-bottom: 100px;
 	padding-top: 90px;
 	text-align: left;
-	width: 100%;
+	width: 100%;*/
 }
 
-#project-row-4 {
+/*#project-row-4 {
 	padding: 10px;
-}
+}*/
 
-#project-row-4 .col-12 {
+/*#project-row-4 .col-12 {
 	display: inline-block;
 	height: 400px;
 	overflow: hidden;
 	padding-top: 10px;
-}
+}*/
 
 
 	/*#slide-3 .col-12 {
@@ -433,7 +426,7 @@ body {
 
 
 
-@media (max-width: 991px) {
+/*@media (max-width: 991px) {
 	#slide-3 {
 		text-align: center;
 		width: 100%;
@@ -463,14 +456,14 @@ body {
 	#slide-3 .col-12 {
 		width: 100%;
 	}
-}
+}*/
 
 /*#slide-3 .line-row .hr {
 	background-color: #4e4e4e;
 	color: #4e4e4e;
-}
+}*/
 
-#slide-3 a {
+/*#slide-3 a {
 	color: inherit;
 	outline: none;
 	text-decoration: none;
@@ -574,7 +567,7 @@ body {
 	display: none;
 }
 
-.zoom {
+/*.zoom {
 	background-image: url('../images/zoom.png');
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -584,7 +577,7 @@ body {
 	top: 0;
 	width: 100%;
 	z-index: 999;
-}
+}*/
 
 #arrows {
 	bottom: 10%;
