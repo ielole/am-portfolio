@@ -293,7 +293,7 @@ body {
 	}
 
 	#home-row-1 h1 {
-		font-size: 90px;
+		font-size: 80px;
 	}
 
 	#home-row-1 h4 {
@@ -428,17 +428,22 @@ body {
 	color: white;
 }
 
+#slide-4 .resume-frame, .resume{
+	height: 800px;
+  width: 805px;
+}
+
 @media (max-width: 991px) {
-	#slide-4 iframe {
+	#slide-4 .resume-frame, .resume {
 		height: 700px;
 		width: 718px;
 	}
 }
 
 @media (max-width: 767px) {
-	#slide-4 iframe {
+	#slide-4 .resume-frame, .resume {
 		height: 400px;
-		width: 418px;
+		width: 410px;
 	}
 }
 
