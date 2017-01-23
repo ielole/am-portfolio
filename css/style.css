@@ -428,20 +428,25 @@ body {
 	color: white;
 }
 
-#slide-4 .resume-frame, .resume{
+/*.resume {
+  display: block;
+  text-align: center;
+}*/
+
+#slide-4 .resume {
 	height: 800px;
   width: 805px;
 }
 
 @media (max-width: 991px) {
-	#slide-4 .resume-frame, .resume {
+	#slide-4 .resume {
 		height: 700px;
 		width: 718px;
 	}
 }
 
 @media (max-width: 767px) {
-	#slide-4 .resume-frame, .resume {
+	#slide-4 .resume {
 		height: 400px;
 		width: 410px;
 	}
