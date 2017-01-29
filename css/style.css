@@ -477,7 +477,7 @@ body {
 	#slide-4 .resume {
     height: inherit;
 		width: inherit;
-    overflow: inherit;
+    overflow: scroll;
     position: inherit;
 	}
 
