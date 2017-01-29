@@ -3,7 +3,7 @@ $(document).ready(function(e) {
 	$('.with-hover-text, .regular-link').click(function(e){
 		e.stopPropagation();
 	});
-
+  $('.resume-frame').hide();
 	/***************
 	* = Hover text *
 	* Hover text for the last slide
@@ -75,6 +75,14 @@ $(document).ready(function(e) {
 		});
 		$(document).scroll();
 	});
+
+	$('.view-resume').click(function(){
+    $('.resume-frame').toggle();
+    $('.download-resume').toggle();
+    $('.view-resume').text(function(i, text){
+      return text === "View Resume" ? "Hide Resume" : "View Resume";
+    });
+  });
 });
 
 /******************
