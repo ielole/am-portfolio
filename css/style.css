@@ -478,6 +478,7 @@ body {
     height: inherit;
 		width: inherit;
     overflow: inherit;
+    position: inherit;
 	}
 
   #slide-4 .resume-frame {
