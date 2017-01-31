@@ -468,7 +468,7 @@ body {
   #slide-4 .resume-frame {
     height: 700px;
 		width: 718px;
-    overflow: scroll;
+    /*overflow: scroll;*/
   }
 
   /*#slide-4 .resume-button {
@@ -481,7 +481,7 @@ body {
 	#slide-4 .resume {
     height: inherit;
 		width: inherit;
-    overflow: scroll;
+    /*overflow: scroll;*/
     position: inherit;
 	}
 
