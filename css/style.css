@@ -430,10 +430,14 @@ body {
 	color: white;
 }
 
-.resume-frame {
+.view-resume, .download-resume {
+  margin-bottom: 10px;
+}
+
+/*.resume-frame {
   height: 0;
   width: 100%;
-  padding-bottom: 56.25%; /* play with this until right */
+  padding-bottom: 56.25%;
   overflow: hidden;
   position: relative;
 }
@@ -444,16 +448,16 @@ body {
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 
 /*.resume-button {
   display: none;
 }*/
 
-/*#slide-4 .resume {
+#slide-4 .resume {
 	height: 800px;
   width: 805px;
-}*/
+}
 
 @media (max-width: 991px) {
 	#slide-4 .resume {
@@ -482,7 +486,7 @@ body {
 	}
 
   #slide-4 .resume-frame {
-    height: auto;
+    height: 500px;
     width: auto;
     overflow: scroll;
   }
@@ -498,6 +502,17 @@ body {
   }*/
 }
 
+@media (max-width: 641px) {
+	#slide-4 .resume {
+    height: inherit;
+		width: inherit;
+	}
+
+  #slide-4 .resume-frame {
+    height: 300px;
+    width: auto;
+  }
+}
 
 #slide-5 {
   background-color: #a9a9a9;
