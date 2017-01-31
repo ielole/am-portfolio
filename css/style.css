@@ -405,8 +405,8 @@ body {
 
 @media (max-width: 767px) {
 	.pic {
-		max-height: 250px;
-		max-width: 200px;
+		max-height: 200px;
+		max-width: 300px;
 	}
 }
 
