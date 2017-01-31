@@ -487,6 +487,10 @@ body {
     width: auto;
   }
 
+  #slide-4 .view-resume {
+    display: none;
+  }
+
   /*#slide-4 .resume-frame {
     display: none;
   }*/
@@ -507,6 +511,10 @@ body {
   #slide-4 .resume-frame {
     height: 300px;
     width: auto;
+  }
+
+  #slide-4 .view-resume {
+    display: none;
   }
 }
 
