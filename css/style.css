@@ -482,13 +482,13 @@ body {
     height: inherit;
 		width: inherit;
     /*overflow: scroll;*/
-    position: inherit;
+    /*position: inherit;*/
 	}
 
   #slide-4 .resume-frame {
     height: 500px;
     width: auto;
-    overflow: scroll;
+    /*overflow: scroll;*/
   }
 
   #slide-4 .view-resume {
